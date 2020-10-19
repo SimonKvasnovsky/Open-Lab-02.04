@@ -6,7 +6,12 @@ namespace Open_Lab_02._04
     {
         public int GetLegsCount(int chickens, int cows, int pigs)
         {
-            throw new NotImplementedException();
+            chickens = 2 * chickens;
+            cows = 4 * cows;
+            pigs = 4 * pigs;
+            int GetLegsCount = (chickens + cows + pigs);
+            return GetLegsCount;
+
         }
     }
 }
